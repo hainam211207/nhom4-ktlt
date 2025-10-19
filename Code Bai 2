@@ -1,0 +1,15 @@
+#include <stdio.h>
+int main() {
+    int n;
+    scanf("%d", &n);
+    int f1 = 1, f2 = 1, f3 = 0;
+    printf("%d %d ", f1, f2);
+    while (1) {
+        f3 = f1 + f2;
+        if (f3 >= n) break;
+        printf("%d ", f3);
+        f1 = f2;
+        f2 = f3;
+    }
+    return 0;
+}
