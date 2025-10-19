@@ -1,0 +1,6 @@
+Nhập giá trị N từ bàn phím.
+Gán hai số đầu tiên của dãy là F1 = 1, F2 = 1.
+In ra hai số đầu tiên.
+Dùng vòng lặp để tính số tiếp theo F3 = F1 + F2.
+Nếu F3 < N thì in ra và cập nhật lại F1 = F2, F2 = F3.
+Lặp lại cho đến khi F3 >= N thì dừng chương trình.
